@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Want to post</title>
+    <link rel="stylesheet" href="style.css" title="" type="" />
+    <link rel="stylesheet" href="all.min.css" type="text/css" media="all" />
+    <script src="all.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" title="" type="" />
+    <script src="bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+  
+  <div class="head">
+    <div class="name">
+      <h1 id="q"class="h1">Our Realm</h1>
+    </div>
+    
+    <div class="menu">
+      <ul class="items" id="s">
+        <li class="item"><a href="about.html">About</a></li>
+        <li class="item"><a href="posts.html">Posts</a></li>
+        <li class="item"><a href="contact.html">Contact Us</a></li>
+        <li class="item"><a href="why.html">Why <i>Our Realm?</i></a></li>
+        <li class="item"><a href="https://onlinecalculatorbk.000webhostapp.com/">Our websites</a></li>
+        
+      </ul>
+    </div>
+    <div>
+      <p class="icon-open"><i id="io" onclick="tk()" class="fas fa-bars"></i></p>
+      <p class="icon-close"><i id="ic" onclick="pk()" class="fas fa-window-close"></i></p>
+      
+      
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <center><h3 class="text-secondary">Fill up the form!</h3></center>
+    <hr  width=50%>
+    <br>
+  </div>
+  <div class="container">
+    
+    <div class="form-group">
+      
+      <form action="https://formspree.io/f/xjvjyody" method="POST">
+        <label type="text" for="name"> Your Name</label>
+        <input name="fname" placeholder="Enter your name" class="form-control" required id="fname">
+        
+        <label for="lname"> Your Contact link</label>
+        <input type="text" name="lname" placeholder="facebook/your_profile" class="form-control" id="lname">
+        
+        <label for="email"> Email Address</label>
+        <input tupe="email" name="email" placeholder="Enter a valid email address" class="form-control" required id="email" aria-describedby="w">
+        <center class="alert-success"><small class=" text-secondary"><i class="fas fa-info-circle"></i> we won't share it!</small></center>
+        
+        
+        <label for="txt"> Main Content</label>
+        <textarea name="txt" type="text" placeholder="Main content goes here..." class="form-control" required id="txt">
+        
+        <label for="title"> Title</label>
+        <input name="title" type="text" placeholder="Entet the title" class="form-control" required id="title">
+        <br>
+        <label for="image"> Image</label>
+        <input name="image" type="text" placeholder="URL" class="form-control" required id="image">
+        <br>
+        <button class="btn btn-outline-success btn-block" onclick="mon()" id="btn">Send Request</button>
+        
+      </form>
+    </div>
+    <center><a href="index.html" class="btn btn-primary"><i class="fas fa-long-arrow-alt-left"></i> Home</a></center>
+  </div>
+  <br>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+
+::placeholder{
+  font-style: italic;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+#bn{
+  font-family: "Hind Siliguri ";
+}
+
+*{
+  
+  user-select: none;
+}
+#t{
+  font-style: italic;
+  font-size: 10px;
+  padding: .2rem;
+}
+.icon-open{
+  margin-right: 30px;
+  font-size: 25px;
+  display: none;
+  
+}
+.name{
+margin-left: .5rem;
+}
+.item{
+  padding: 1.2rem;
+}
+.item:hover{
+  background-color: coral;
+  border-radius: 1rem;
+}
+.gret{
+  background: url(a.mp4);
+}
+ul{
+  list-style-type: none;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#f{
+  margin-top: 200px;
+  opacity: 0%;
+  text-align: center;
+  animation-name: animate;
+  animation-duration: 7s;
+  animation-fill-mode: running;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: running;
+}
+@keyframes animate{
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+#ic{
+  display: none;
+  margin-right: 25px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+body{
+  overflow-x: hidden;
+}
+
+.f-items{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+.f-item{
+  font-size: 33px;
+  padding: 2rem;
+  
+}
+.f-item:hover{
+  color: lightsalmon;
+}
+  
+
+.footer{
+  background-color: lightslategrey;
+}
+.head{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: beige;
+}
+@media (max-width:720px){
+  #h1{ font-size: 25px;
+    
+  }
+  #pi{
+    font-size: 20px;
+  }
+  .footer{
+    background-color: white;
+  }
+  .icon-open{
+    display: initial;
+    font-size: 30px !important;
+    margin-top: 25px;
+  }
+  .h1{
+    margin-left: 20px!important;
+  }
+  .items{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+  #h{
+    width: 380px;
+  }
+  #im{
+    font-size: 5px;
+  }
+  .f-items{
+    flex-direction: row;
+    text-align: center;
+  }
+  .f-item{
+    padding: .5rem;
+    font-size: 25px;
+  }
+}
+@media (min-width:720px){
+  #f{
+    font-size: 5rem;
+  }
+}
